@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Мои ссылки">
+<title>Мои ссылки</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{min-height:100vh;display:flex;align-items:center;justify-content:center;font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:linear-gradient(135deg,#1e1e2f,#2d1b4e,#1a1a2e);background-size:400% 400%;animation:bg 15s ease infinite;padding:20px;padding-top:calc(20px + env(safe-area-inset-top));padding-bottom:calc(20px + env(safe-area-inset-bottom))}
+@keyframes bg{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+.c{width:100%;max-width:480px;background:rgba(255,255,255,.05);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.1);border-radius:24px;padding:40px 30px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+h1{color:#fff;text-align:center;font-size:28px;font-weight:700;margin-bottom:8px}
+.s{color:rgba(255,255,255,.5);text-align:center;font-size:14px;margin-bottom:32px}
+.b{display:flex;flex-direction:column;gap:14px}
+.btn{display:flex;align-items:center;gap:16px;padding:16px 20px;border-radius:16px;text-decoration:none;color:#fff;font-size:16px;font-weight:600;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);transition:.25s}
+.btn:hover,.btn:active{transform:translateY(-3px);background:rgba(255,255,255,.15);box-shadow:0 10px 30px rgba(0,0,0,.4);border-color:rgba(255,255,255,.3)}
+.i{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.i svg{width:24px;height:24px;fill:#fff}
+.t1{background:linear-gradient(135deg,#2AABEE,#229ED9)}
+.t2{background:linear-gradient(135deg,#0088cc,#00b4ff)}
+.yt{background:linear-gradient(135deg,#FF0000,#cc0000)}
+.ya{background:linear-gradient(135deg,#FC3F1D,#ff6b47)}
+.gg{background:linear-gradient(135deg,#4285F4,#34A853)}
+.a{margin-left:auto;opacity:.4;font-size:20px}
+.btn:hover .a{opacity:1}
+footer{text-align:center;color:rgba(255,255,255,.3);font-size:12px;margin-top:28px}
+</style>
+</head>
+<body>
+<div class="c">
+<h1>🔗 Мои ссылки</h1>
+<p class="s">Быстрый доступ к сервисам</p>
+<div class="b">
+<a class="btn" href="https://web.telegram.im" target="_blank"><span class="i t1"><svg viewBox="0 0 24 24"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg></span><span>Telegram Web</span><span class="a">→</span></a>
+<a class="btn" href="https://телеграм.онлайн" target="_blank"><span class="i t2"><svg viewBox="0 0 24 24"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg></span><span>Телеграм.онлайн</span><span class="a">→</span></a>
+<a class="btn" href="https://youtube.com" target="_blank"><span class="i yt"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></span><span>YouTube</span><span class="a">→</span></a>
+<a class="btn" href="https://ya.ru" target="_blank"><span class="i ya"><svg viewBox="0 0 24 24"><path d="M2.04 12.34l2.12-4.3c.23-.48.42-.91.56-1.3h.04c.14.4.34.83.57 1.3l2.11 4.3h-5.4zm4.74 2.35l1.48 2.94h-2.2l-3.9-7.83c-.61-1.24-.8-1.77-.8-2.55 0-1.77 1.36-3.06 3.2-3.06 1.83 0 3.16 1.28 3.16 3.02 0 .78-.24 1.36-.75 2.32l-3.19 6.5h.13l.19-.34zm10.47-2.35h-5.4l2.11-4.3c.23-.48.43-.91.57-1.3h.04c.14.4.33.83.56 1.3l2.12 4.3zm-4.87 5.29l1.48-2.94.19.34h.13l-3.19-6.5c-.51-.96-.75-1.54-.75-2.32 0-1.74 1.33-3.02 3.16-3.02 1.84 0 3.2 1.29 3.2 3.06 0 .78-.19 1.31-.8 2.55l-3.9 7.83h-2.2z"/></svg></span><span>Яндекс</span><span class="a">→</span></a>
+<a class="btn" href="https://google.com" target="_blank"><span class="i gg"><svg viewBox="0 0 24 24"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.85 3.18-1.73 4.1-1.05 1.05-2.7 2.2-5.51 2.2-4.4 0-7.83-3.55-7.83-7.95s3.43-7.95 7.83-7.95c2.37 0 4.1.93 5.38 2.14l2.32-2.32C18.9 2.6 16.2 1.5 12.48 1.5 6.42 1.5 1.5 6.42 1.5 12.48s4.92 10.98 10.98 10.98c3.22 0 5.65-1.06 7.56-3.05 1.96-1.96 2.57-4.72 2.57-6.95 0-.47-.04-.9-.1-1.3l-10.03-.24z"/></svg></span><span>Google</span><span class="a">→</span></a>
+</div>
+<footer>© 2025 · Все права защищены</footer>
+</div>
+</body>
+</html>
